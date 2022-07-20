@@ -101,7 +101,7 @@ function draw(){
   
   
  //impedir que o trex caia
- if(touches.length>0 || mousePressedOver(recomeçar)){
+ if(mousePressedOver(recomeçar)){
  console.log("reiniciar o jogo")
  reset()
  }
